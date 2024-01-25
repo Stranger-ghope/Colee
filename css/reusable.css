@@ -1,0 +1,82 @@
+.btn1, .btn2 {
+    color: white;
+    font-size: var(--body-size);
+}
+
+.btn1 {
+    padding: 0.5rem 2.5rem;
+    border: var(--brand-color) solid 2px;
+    font-family: var(--body-font);
+    border-radius: 10px;
+}
+
+.btn2 {
+    padding: 0.5rem 2.5rem;
+    background-color:rgba(9, 121, 105,0.7);
+    font-family: var(--body-font);
+    border-radius: 10px;
+}
+.btn1:hover {
+    background-color: var(--brand-color);
+}
+.btn2:hover {
+    background-color: #fff;
+    color:var(--footer-color);
+}
+
+.bfont {
+    font-size: var(--body-size);
+    font-family: var(--body-font);
+}
+.bwhite {
+    color: rgba(255, 255, 255, 0.8);
+}
+.bgreen {
+    color: var(--body-color);
+    font-family: var(--body-font);
+    width: 100%;
+}
+.sec-head {
+    color: var(--heading-color);
+    font-family: var(--header-font);
+    text-align: center;
+    /* white-space: nowrap; */
+    font-size: 4rem;
+}
+.sub-head {
+    color: var(--heading-color);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: var(--header-font);
+    line-height: normal;
+}
+.sub-head2 {
+    color: var(--faint-white);
+    font-size: 20px;
+    font-style: normal;
+    font-family: var(--header-font);
+    font-weight: 600;
+    line-height: normal;
+}
+.dwnloadbtn {
+    font-size: var(--body-size);
+    font-family: var(--body-font);
+    padding:1rem 3rem;
+    border: var(--body-color) solid 1.5px;
+    color: var(--body-color);
+    border-radius: 10px;
+    width: max-content;
+
+}
+.dwnloadbtn:hover {
+    color: #fff;
+    background: var(--body-color);
+    transition: .4s;
+}
+
+.hero-title {
+    font-size: 4rem;
+    color: var(--faint-white);
+    font-family: var(--header-font);
+}
